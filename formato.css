@@ -1,12 +1,47 @@
-#formato {
+#formato 
+{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 5fr 2fr;
     grid-template-rows: 
         minmax(100px,auto) minmax(200px,auto)
-        minmax(600px,auto) minmax(500px,auto);
-        grid-template-areas: 
+        minmax(600px,auto) minmax(100px,auto);
+    grid-template-areas: 
             "header header header"
             "nav section aside"
-            "n1 Section aside"
+            "n1 section aside"
             "footer footer footer";
+    text-align: center;
+    margin: 0 auto;
+    gap: 5px;
+    background-color: #ffc2c2;
+}
+
+header
+{
+    grid-area: header;
+    background-color: #f8b195 ;
+}
+
+nav
+{
+    grid-area: nav;
+    background-color: #f67280;
+}
+
+section
+{
+    grid-area: section;
+    background-color: #c06c84;
+}
+
+aside
+{
+    grid-area: aside;
+    background-color: #f67280;
+}
+
+footer
+{
+    grid-area: footer;
+    background-color: #6c567b;
 }
