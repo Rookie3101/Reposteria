@@ -1,0 +1,7 @@
+header
+{
+    grid-area: header;
+    background-color: #f8b195 ;
+    border-radius: 5px;
+    margin: 5px 5px 5px 5px;
+}

@@ -1,0 +1,10 @@
+footer
+{
+    grid-area: footer;
+    background-color: #6c567b;
+    border-radius: 5px;
+    margin: 5px 5px 5px 5px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    grid-template-areas: "footer1 footer2 footer3";
+}

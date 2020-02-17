@@ -1,0 +1,7 @@
+section
+{
+    grid-area: section;
+    background-color: #c06c84;
+    border-radius: 5px;
+    margin: 5px 5px 5px 5px;
+}

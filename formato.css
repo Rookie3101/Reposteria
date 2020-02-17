@@ -3,8 +3,8 @@
     display: grid;
     grid-template-columns: 1fr 5fr 2fr;
     grid-template-rows: 
-        minmax(100px,auto) minmax(200px,auto)
-        minmax(600px,auto) minmax(100px,auto);
+        minmax(100px,auto) minmax(0px,auto)
+        minmax(600px,auto) minmax(80px,auto);
     grid-template-areas: 
             "header header header"
             "nav section aside"
@@ -14,45 +14,4 @@
     margin: 0 auto;
     gap: 5px;
     background-color: #ffc2c2;
-}
-
-header
-{
-    grid-area: header;
-    background-color: #f8b195 ;
-    border-radius: 5px;
-}
-
-nav
-{
-    grid-area: nav;
-    background-color: #f67280;
-    border-radius: 5px;
-}
-ul{
-    list-style: none;
-    text-align: left;
-    padding-left: 0px;
-    line-height: 30px;
-}
-
-section
-{
-    grid-area: section;
-    background-color: #c06c84;
-    border-radius: 5px;
-}
-
-aside
-{
-    grid-area: aside;
-    background-color: #f67280;
-    border-radius: 5px;
-}
-
-footer
-{
-    grid-area: footer;
-    background-color: #6c567b;
-    border-radius: 5px;
 }

@@ -1,0 +1,18 @@
+nav
+{
+    grid-area: nav;
+    background-color: #f67280;
+    border-radius: 5px;
+    margin: 5px 5px 5px 5px;
+}
+.contenedorlista{
+    margin-left: 25px;
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+    padding-left: 0px;
+    line-height: 30px;
+    margin-left: 10px;
+}
