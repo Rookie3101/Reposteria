@@ -4,7 +4,7 @@
     grid-template-columns: 1fr 5fr 2fr;
     grid-template-rows: 
         minmax(100px,auto) minmax(0px,auto)
-        minmax(600px,auto) minmax(80px,auto);
+        minmax(600px,auto) minmax(100px,auto);
     grid-template-areas: 
             "header header header"
             "nav section aside"
@@ -14,4 +14,16 @@
     margin: 0 auto;
     gap: 5px;
     background-color: #ffc2c2;
+}
+
+@media only screen and (max-width:1200px){
+    #formato{
+        grid-template-columns: 6fr 2fr;
+        grid-template-areas: 
+            "header header"
+            "nav nav"
+            "section aside"
+            "footer footer";
+            
+    }
 }

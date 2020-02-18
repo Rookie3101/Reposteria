@@ -6,5 +6,44 @@ footer
     margin: 5px 5px 5px 5px;
     display: grid;
     grid-template-columns: 1fr 5fr 2fr;
+    
     grid-template-areas: "footer1 footer2 footer3";
+    text-align: center;
+    width: calc(100%-30px);
+    gap: 5px;
 }
+
+.footer1{
+    grid-area: footer1;
+    display: flex;
+}
+
+.footer2{
+    grid-area: footer2;
+    display: flex;
+}
+
+.footer3{
+    grid-area: footer3;
+    margin: 0 auto;
+    width: fit-content;
+    overflow: hidden;
+    margin-top: 5%;
+    display: flex;
+  
+}
+.footer1 > img{
+    align-self: center;
+    margin-left: 10px;
+    
+    
+}
+
+.footer3 > img{
+   
+   align-self: center;
+    margin-left: 10px;
+    
+
+}
+
