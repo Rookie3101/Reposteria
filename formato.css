@@ -4,7 +4,7 @@
     grid-template-columns: 1fr 5fr 2fr;
     grid-template-rows: 
         minmax(100px,auto) minmax(80px,auto)
-        minmax(600px,1800px) minmax(100px,auto);
+        minmax(1800px,auto) minmax(100px,auto);
     grid-template-areas: 
             "header header header"
             "nav section aside"
