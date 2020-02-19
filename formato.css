@@ -3,8 +3,8 @@
     display: grid;
     grid-template-columns: 1fr 5fr 2fr;
     grid-template-rows: 
-        minmax(100px,auto) minmax(0px,auto)
-        minmax(600px,auto) minmax(100px,auto);
+        minmax(100px,auto) minmax(80px,auto)
+        minmax(600px,1800px) minmax(100px,auto);
     grid-template-areas: 
             "header header header"
             "nav section aside"
@@ -16,7 +16,7 @@
     background-color: #ffc2c2;
 }
 
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:1600px){
     #formato{
         grid-template-columns: 6fr 2fr;
         grid-template-areas: 
@@ -27,3 +27,18 @@
             
     }
 }
+
+@media only screen and (max-width:1350px){
+    #formato{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "header"
+            "nav"
+            "section"
+            "footer";
+            
+    }
+}
+
+
+
