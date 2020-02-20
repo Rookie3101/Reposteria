@@ -1,9 +1,13 @@
 nav
 {
     grid-area: nav;
-    background-color: #f67280;
+    background-color: #f6728052;
     border-radius: 5px;
     margin: 5px 5px 5px 5px;
+}
+nav > p
+{
+
 }
 
 nav > ul{
@@ -29,4 +33,14 @@ nav ul li a:hover{
     nav li{
         float: left;
     }
+}
+
+@media only screen and (max-width:600px){
+    ul{
+        width: 360px;
+    }
+    li{
+        width: 150px;
+    }
+
 }

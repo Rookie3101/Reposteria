@@ -1,7 +1,7 @@
 footer
 {
     grid-area: footer;
-    background-color: #6c567b;
+    background-color: #6c567b52;
     border-radius: 5px;
     margin: 5px 5px 5px 5px;
     display: grid;
@@ -32,18 +32,12 @@ footer
     display: flex;
   
 }
-.footer1 > img{
+footer img{
     align-self: center;
     margin-left: 10px;
     
     
 }
 
-.footer3 > img{
-   
-    align-self: center;
-    margin-left: 10px;
-    
 
-}
 
