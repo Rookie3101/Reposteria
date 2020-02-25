@@ -46,10 +46,26 @@ section
     border-radius: 2px;
     
 }
+
+section > img{
+    margin-top: 25px;
+}
+section > ul > li{
+    text-align: center;
+}
+}
 @media only screen and (max-width:600px){
     #contenedor{
         flex-direction: column;
-        flex-wrap: nowrap;    
+        flex-wrap: nowrap;   
+        height: auto; 
+        align-items: center;
+        
+    }
+    #contenedor > div{
+        margin: 10px 0px;
+        width: 90%;
+
     }
     #formato{
         grid-template-rows: 
