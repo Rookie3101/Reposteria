@@ -10,12 +10,6 @@ aside
         display: none;
     }
 }
-aside > p
-{
-
-}
-
-aside > div
-{
-
+.n1{
+    text-align: center;
 }
