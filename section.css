@@ -23,9 +23,12 @@ section
     min-height: 300px;
     background-color: coral;
     border: 1px solid black;
-    box-sizing: border-box;
-    
-    
+    box-sizing: border-box;  
+}
+#contenedor > div > img {
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
 }
 
 #siguiente{
@@ -50,10 +53,11 @@ section
 section > img{
     margin-top: 25px;
 }
-section > ul > li{
+ul{
     text-align: center;
+    list-style: none;
 }
-}
+
 @media only screen and (max-width:600px){
     #contenedor{
         flex-direction: column;
